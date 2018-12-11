@@ -5,8 +5,8 @@ $(document).ready(function() {
 
 
     $("#button_draw_triangle").click(function() {
-        ctxt.fillStyle   = '#f00'; //Color when filled
-        ctxt.strokeStyle = '#000'; //Color when stroke
+        ctxt.fillStyle   = '#f00'; //Object's Inner color
+        ctxt.strokeStyle = '#000'; //Color of the lines
         ctxt.lineWidth   = 3; //width of the lines
         ctxt.beginPath(); //Method to start drawing in the canvas
         ctxt.moveTo(60, 240); //Starting point
